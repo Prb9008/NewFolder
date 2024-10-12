@@ -1,0 +1,64 @@
+// signup.component.scss
+
+ion-header {
+  
+   ion-title {
+     color: rgb(0, 0, 0);
+     font-size: 1.5rem;
+     font-weight: bold;
+   }
+   ion-button {
+     --color: rgb(0, 0, 0);
+   }
+ }
+ 
+ ion-content {
+   background-color: white;
+   
+   padding: 2rem;
+   height: auto;
+ 
+   form {
+     ion-item {
+       --highlight-height: 0px;
+       --min-height: 50px;
+       margin: 15px 0;
+       border-bottom: 2px solid #d1d1d1;
+       
+       padding: 5px 15px;
+     }
+ 
+     ion-label {
+       font-size: 1rem;
+       color: #666;
+     }
+ 
+     ion-input {
+       --padding-start: 0px;
+       font-size: 1rem;
+       color: #333;
+     }
+ 
+     ion-button {
+       margin-top: 20px;
+       font-size: 1rem;
+      
+       padding: 0.75rem;
+     }
+ 
+     ion-button[type='submit'] {
+      
+       color: white;
+     }
+   }
+ }
+ 
+ .signup-modal {
+   .modal-wrapper {
+     background-color: white;
+     padding: 0;
+     border-radius: 15px;
+     overflow: hidden;
+   }
+ }
+ 
